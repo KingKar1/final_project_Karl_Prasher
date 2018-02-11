@@ -1,0 +1,15 @@
+Dataset: Craft Beer (includes beers.csv & breweries.csv)
+Author: Karl Prasher
+
+Problem Statement: Breweries need a good predictor model for the quality of
+the beers based off the type of beer, location, .
+
+Proposal 1: Using indictors such as location, type of beer, and others, I
+plan to predict ABV and then cross reference against the ABV column to test
+the model.
+
+Proposal 2: Using the key indictors, predict the quality(beer scores) of beer
+and cross reference against the scores at ratebeer.com.
+
+Proposal 3: Determine where the most popular beer is located on the IBU scale.
+Determine if location dictates where on IBU scale breweries make their beer.
