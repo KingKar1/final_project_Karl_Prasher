@@ -2,14 +2,48 @@ Dataset: Craft Beer (includes beers.csv & breweries.csv)
 Author: Karl Prasher
 
 Problem Statement: Breweries need a good predictor model for the quality of
-the beers based off the type of beer, location, .
+the beers based off the type of beer, location, etc.
 
-Proposal 1: Using indictors such as location, type of beer, and others, I
-plan to predict ABV and then cross reference against the ABV column to test
-the model.
+Proposal 1: Using indictors such as location, type of beer, and others,
+how well can I predict ABV and then cross reference against the
+ABV column to test the model? Possible challenges include null values. It will
+be extremely difficult to pull thousands of values from different breweries
+websites(in whatever category/column that may be). There may not be enough
+indictors (variables) to create a good working model.
 
-Proposal 2: Using the key indictors, predict the quality(beer scores) of beer
-and cross reference against the scores at ratebeer.com.
+Proposal 1 Pitch:
+Based on the ingredients of a beer, I can predict how much alcohol by volume(ABV)
+the beer will contain. Breweries need good predictors for how the beer will turn
+out because making large batches are expensive so to optimize profit, they can
+optimize the grains and hops put into the beer production.
 
-Proposal 3: Determine where the most popular beer is located on the IBU scale.
-Determine if location dictates where on IBU scale breweries make their beer.
+Proposal 2: Using the key indictors, can I predict the quality(beer scores) of
+beer and cross reference against the scores at ratebeer.com? How well will my
+predictor score be? Data mining and sorting through the data will be difficult
+based on the number of rows. Once the data is cleaned, using location, ABV, IBU,
+and others, creating a model may be easy, but finding the correct combination
+and algorithm, may be a bit difficult. How good a beer is may also be indicated
+by the amount of sales which could be used in the model if the data was available.
+
+Proposal 2 Pitch:
+My beer model predicts the scores of beers on ratebeer.com based on key indictors
+such as location, IBU, ABV, and type of beer. If this model is successful(a
+good predictor) then I can predict if a beer will taste good or bad.
+
+Proposal 3: Where is the most popular beer is located on the IBU scale?
+Does location dictate where on IBU scale breweries make their beer? Possible
+challenges include null values. It will be extremely difficult to pull thousands
+of values from different breweries websites(in whatever category/column that may be).
+Possibly mapping breweries over a map and then filtering only the best beers to
+provide a visualization of where the best beer are located (even filter by
+region). How good a beer will taste based on location is hard to predict since
+beer is mostly water and breweries get their water from the city(more than likely)
+and it will be extremely hard to determine the nutrients in the water because most
+cities operate from several different reservoirs.
+
+Proposal 3 Pitch:
+When traveling the country, you may want to grab a beer. My model constantly
+updates scores of beers from ratebeer.com and plugs it into my model to give
+you the best beers in your region. Then it can even perform statistical analysis
+to give you which brewery near you gives the best selection rather than just the
+best rated beer.
